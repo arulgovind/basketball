@@ -1,0 +1,112 @@
+body{
+    margin: 0;
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+    width: 575px;
+    height: 385px;
+    top: -1135px;
+    left: -1996px;
+
+}
+.empty-state{
+    width: 575px;
+    height: 385px;
+    top: -1135px;
+    left: -1996px;
+    background: #1B244A;
+    display: flex;
+    justify-content: space-around;
+}
+.board-title-home{
+    width: 149px;
+    height: 36px;
+    top: 68px;
+    left: 85px;
+    font-family: Verdana;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: center;
+
+    color: #EEEEEE;
+}
+.board-title-guest{
+    width: 149px;
+    height: 36px;
+    top: 68px;
+    left: 340px;
+    font-family: Verdana;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #EEEEEE;
+
+}
+
+.home-score{
+    width: 155px;
+    height: 120px;
+    top: 125px;
+    left: 82px;
+    border-radius: 5 ;
+    background: #080001;
+}
+.guest-score{
+    width: 155px;
+    height: 120px;
+    top: 125px;
+    left: 337px;
+    border-radius: 5;
+    background: #080001;
+
+}
+.home-points-text{
+    width: 117px;
+    height: 120px;
+    top: 125px;
+    left: 100px;
+    font-family: Cursed Timer ULiL;
+    font-size: 90px;
+    font-weight: 400;
+    line-height: 127px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #F94F6D;
+}
+.guest-points-text{
+    width: 117px;
+    height: 120px;
+    top: 125px;
+    left: 355px;
+    font-family: Cursed Timer ULiL;
+    font-size: 90px;
+    font-weight: 400;
+    line-height: 127px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #F94F6D;
+}
+.add-points-btns-home{
+    width: 155px;
+    height: 45px;
+    top: 271px;
+    left: 82px;
+    border-radius: 5;
+    background: #9AABD8;
+    border: 2px solid #9AABD8
+}
+.plus-one-point{
+    width: 45px;
+    height: 45px;
+    top: 271px;
+    left: 82px;
+    border-radius: 5;
+    color: #9AABD8;
+    background: #1B244A;
+    border: 2px solid #9AABD8
+}
